@@ -1,6 +1,6 @@
 .spacial-header {
   min-height: 780px;
-  background-image: radial-gradient(40% 70%,#425282 15%,#1e3961 100%);
+  background: #1d1e1f;
 
   section {
     padding-top: 180px;
@@ -22,7 +22,7 @@
 
     h1 {
       color: #fff;
-      font-size: 31px;
+      font-size: 35px;
       font-family: $franklin;
       text-align: center;
       letter-spacing: .8px;
@@ -52,7 +52,7 @@
       font-size: 24px;
       font-weight: 500;
       letter-spacing: 0.8px;
-      margin-top: 52px;
+      margin-top: 100px;
     }
 
     p {
@@ -70,7 +70,7 @@
       text-transform: uppercase;
       display: inline-block;
       padding: 14px 30px;
-      border: 2px solid #455B90;
+      border: 2px solid #B0976D;
       color: #fff;
       font-weight: 600;
       letter-spacing: 0.8px;
@@ -82,8 +82,8 @@
       @include transition(all .2s);
 
       &:hover {
-        background: #687ED8;
-        border-color: #687ED8;
+        background: #B0976D;
+        border-color: #B0976D;
         color: #fff;
       }
 
@@ -174,7 +174,7 @@
     display: block;
     font-weight: 500;
     margin-top: 15px;
-    color: #5375A2;
+    color: #B0976D;
     opacity: .7;
   }
 
@@ -325,7 +325,7 @@
   }
 
   a {
-    background: #7E58F9;
+    background: rgb(141, 102, 34);
     color: #fff;
     display: inline-block;
     margin-top: 80px;
@@ -344,7 +344,7 @@
     }
 
     &:hover {
-      background: #588ef9;
+      background: #B0976D;
       box-shadow: 0 4px 18px 3px rgba(0, 0, 0, 0.42);
     }
   }
