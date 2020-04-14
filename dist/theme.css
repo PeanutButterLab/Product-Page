@@ -26959,7 +26959,7 @@ body {
   }
 }
 .spacial-cta-download a {
-  background: #7E58F9;
+  background: #000000;
   color: #fff;
   display: inline-block;
   margin-top: 80px;
@@ -26982,7 +26982,7 @@ body {
   }
 }
 .spacial-cta-download a:hover {
-  background: #588ef9;
+  background: #000000;
   box-shadow: 0 4px 18px 3px rgba(0, 0, 0, 0.42);
 }
 
